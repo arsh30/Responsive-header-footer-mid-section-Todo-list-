@@ -1,5 +1,5 @@
 .hero_Section {
-  /* background-color: violet; */
+  /* border: 10px solid red; */
   display: flex;
   width: 100vw;
   /* flex-direction: column; */
@@ -8,13 +8,11 @@
 }
 
 .table {
-  width: 50vw;
-  /* border: 1px solid purple; */
+  /* width: 50vw; */
+  border: 1px solid purple;
 }
 
 .form {
-  width: 50vw;
-  /* border: 1px solid orange; */
+  /* width: 50vw; */
+  border: 1px solid orange;
 }
-
-

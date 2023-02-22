@@ -1,6 +1,6 @@
 form {
   height: 100%;
-  width: 100%;
+  width: 50%;
   /* border: 1px solid green; */
   display: flex;
   justify-content: center;
@@ -9,6 +9,11 @@ form {
   background-color: #eee;
 }
 
+.parent_div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 form > div {
   /* border: 1px solid green; */
   padding: 1rem;

@@ -23,7 +23,7 @@ export default class UserForm extends Component {
       state: this.state.state,
       contact: this.state.contact,
     };
-    // console.log("NEWeNRTY", newEntry);
+    console.log("NEWeNRTY", newEntry);
     this.setState({
       items: [...this.state.items, newEntry],
     });
@@ -37,10 +37,10 @@ export default class UserForm extends Component {
     console.log(this.state.items);
     // console.log(newEntry);
 
-    // const {items} = this.state;
+    const { items } = this.state;
 
     return (
-      <>
+      <div className="parent_div">
         <form onSubmit={this.submitForm}>
           <div className="name">
             <label htmlFor="name">Name: </label>
@@ -78,8 +78,8 @@ export default class UserForm extends Component {
           <input type="submit" value="Submit" />
         </form>
 
-        {/* <Table data={items}/> */}
-      </>
+        <Table data={items}/>
+      </div>
     );
   }
 }
