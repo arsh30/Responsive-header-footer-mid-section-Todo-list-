@@ -43,6 +43,8 @@ a {
   padding: 0 4.8rem;
   background-color: #e7f5ff;
 
+  /* NOTE::: AGR POSITION FIXED HTARE H TOH RESPONSIVENESS REMOVE HORI H */
+
   position: fixed;
   top: 0;
   left: 0;
