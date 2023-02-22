@@ -1,0 +1,20 @@
+.hero_Section {
+  /* background-color: violet; */
+  display: flex;
+  width: 100vw;
+  /* flex-direction: column; */
+  /* height: 100%;
+  width: 100%; */
+}
+
+.table {
+  width: 50vw;
+  /* border: 1px solid purple; */
+}
+
+.form {
+  width: 50vw;
+  /* border: 1px solid orange; */
+}
+
+

@@ -1,0 +1,37 @@
+form {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+form > div {
+  /* border: 1px solid green; */
+  padding: 1rem;
+  font-size: 1.6rem;
+  width: 80%;
+}
+
+div > input {
+  padding: 1.2rem;
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+}
+
+input[type="submit"] {
+  background-color: crimson;
+  border: none;
+  outline: none;
+  padding: 1.2rem;
+  margin-top: 1.2rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
